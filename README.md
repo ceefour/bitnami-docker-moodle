@@ -4,7 +4,9 @@ Bitnami Docker Image for Moodle, with support for:
 
 1. `/var/local/cache`
 2. opcache (set `opcache.enable = 1` in `/opt/bitnami/php/etc/conf.d/opcache.ini`)
-3. MongoDB
+3. [igbinary](https://pecl.php.net/package/igbinary)
+4. [redis](https://pecl.php.net/package/redis)
+5. [MongoDB](https://pecl.php.net/package/mongodb)
 
 # What is Moodle?
 
