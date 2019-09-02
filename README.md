@@ -3,7 +3,7 @@
 Bitnami Docker Image for Moodle, with support for:
 
 1. `/var/local/cache`
-2. opcache (set `opcache.enable = 1` in `/opt/bitnami/php/conf/php.ini`)
+2. opcache (set `opcache.enable = 1` in `/opt/bitnami/php/etc/conf.d/opcache.ini`)
 3. MongoDB
 
 # What is Moodle?
