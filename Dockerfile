@@ -1,5 +1,8 @@
 FROM bitnami/moodle:latest
 
+# Configure PHP error_log to stderr, as in: https://docs.docker.com/config/containers/logging/
+RUN echo "error_log = /dev/stderr" > /opt/bitnami/php/etc/conf.d/error_log.ini
+
 # Prepare /var/local/cache
 RUN mkdir -vp /var/local/cache && \
     chown -Rc bitnami:daemon /var/local/cache && \
